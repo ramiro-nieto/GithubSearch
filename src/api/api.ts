@@ -44,12 +44,12 @@ export const deleteRepository = async (repoId: string): Promise<void> => {
 export async function fetchGitHubRepositories(searchText: string): Promise<RepositoryDetails[]> {
   const response = await fetch(
     `https://api.github.com/search/repositories?q=${searchText}&per_page=10`,
-    // {
-    //   method: 'GET',
-    //   headers: {
-    //     Authorization: `token ${githubToken}`,
-    //   },
-    // }
+    {
+      method: 'GET',
+      headers: {
+        Authorization: `token ${githubToken}`,
+      },
+    }
   );
   if (!response.ok) {
     throw new Error('Error fetching GitHub repositories');
