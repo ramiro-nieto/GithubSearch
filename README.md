@@ -39,13 +39,14 @@ Replace your-github-token-here with your GitHub Personal Access Token. You can c
 
 **_Please note that you can also remove the code below from the fetch call in the api.ts file. However, it's important to be aware that doing so may result in quickly exceeding the API rate limit._**
 
-````
+```
  {
     method: 'GET',
     headers: {
     Authorization: `token ${githubToken}`,
     },
-}```
+}
+```
 
 Start the React Native development server:
 
