@@ -9,6 +9,7 @@ Before running the app, make sure you have the following:
 Node.js and npm installed. You can download them from nodejs.org.
 
 ## Getting Started
+
 Follow these steps to get the app up and running:
 
 Clone the repository to your local machine:
@@ -51,12 +52,16 @@ Replace your-github-token-here with your GitHub Personal Access Token. You can c
 Start the React Native development server:
 
 ```shell
-npx react-native start
-````
+npm start
+```
+
+Start Docker server:
+
+```
+npm run dev:server
+```
 
 Run the app:
-
-For iOS:
 
 ```shell
 npm run-ios
