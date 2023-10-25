@@ -15,13 +15,13 @@ Follow these steps to get the app up and running:
 Clone the repository to your local machine:
 
 ```shell
-git clone https://github.com/your-username/github-search-app.git
+git clone https://github.com/ramiro-nieto/GithubSearch.git
 ```
 
 Change your working directory to the project folder:
 
 ```shell
-cd github-search-app
+cd GithubSearch
 ```
 
 Install project dependencies:
