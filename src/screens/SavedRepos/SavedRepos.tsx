@@ -54,9 +54,6 @@ const SavedRepos = () => {
     setSavedRepos(sortedRepos);
   };
 
-console.log({savedRepos});
-
-
   return (
     <View style={styles.container}>
       <TouchableOpacity
